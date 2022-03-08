@@ -38,7 +38,7 @@ def format_data(df):
          'Other': "#C2D6C4",
          }
     )
-
+    # fill missing data
     data['mean_yield'].fillna(-99, inplace=True)
 
     # put in list of records

@@ -1,0 +1,6 @@
+pandas~=1.1.3
+numpy~=1.19.2
+flask~=1.1.2
+bokeh~=2.3.2
+datetime
+pytest~=6.1.1
