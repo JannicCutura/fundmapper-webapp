@@ -9,9 +9,23 @@
     {{ plot_script|indent(4)|safe }}
 </head>
 <body>
-    <h1 style="text-align: center; margin-bottom: 40px;">US Money Market Funds (MMF) USD supply to the world</h1>
+    <p style = >
+    <h1 style="text-align: center; font-family:georgia,garamond,serif; margin-bottom: 20px;">
+        US Money Market Funds (MMF) USD supply to the world</h1>
+     <p style = "font-family:georgia,garamond,serif;font-size:16px; margin-bottom: 40px;
+                 margin-left: 80px;margin-right: 80px; line-height:1.5">
+    This web application allows you to visualize the data of the <code>fundmappeR</code> project in order to quickly learn about
+    aggregates. You can learn how to download the granular data <a href="https://github.com/JannicCutura/fundmappeR">here</a>
+    at: <code>https://github.com/JannicCutura/fundmappeR</code>. The drow down menus on the left allow you to filter the
+    database for country and fund type.
+
     <div style="display: flex; justify-content: center;">
         {{ plot_div|indent(4)|safe }}
     </div>
+
+     <p style = "font-family:georgia,garamond,serif;font-size:16px; margin-bottom: 40px;
+                 margin-left: 80px;margin-right: 80px; line-height:1.5">
+    The data displayed here is based on data published by the Security Exchange Comission (SEC). You can find more information
+    <a href="https://github.com/JannicCutura/fundmappeR">here</a>. <br> Contact: <code>janniccutura [at] gmail.com</code>
 </body>
 </html>
