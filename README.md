@@ -1,3 +1,4 @@
+[![fundmapper webapp CICD](https://github.com/JannicCutura/fundmapper-webapp/actions/workflows/python-app2.yml/badge.svg)](https://github.com/JannicCutura/fundmapper-webapp/actions/workflows/python-app2.yml)
 # fundmapper-webapp
 This repo tracks the code for fundmapper's webapp
 
