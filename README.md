@@ -7,7 +7,8 @@ This repo tracks the code for fundmapper's webapp
 2. Open Anaconda prompt, cd to folder and run `conda activate env_fundmapperwebapp`
 and then to run all tests `python -m pytest`
 
-
+## Documentation
+You can find the documentation of the various DevOps tools here. 
 
 
 ## Author
