@@ -11,6 +11,15 @@ This is really useful! When I updated `numpy` to avoid, the tests failed showing
 
 
 ## Docker
+To create the docker image:
+
+`docker build --tag fundmapper .`
+
+To run it:
+
+`docker run -d -p 8000:5000 fundmapper` 
+
+![Docker](docker.jpg)
 
 
 
