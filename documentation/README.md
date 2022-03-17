@@ -1,6 +1,13 @@
 # Documentation
 Below listed all the devops technologies tested. 
 
+## Local Development
+To develop locally on Windows work on the code. To test open command prompt `cd` to the folder and run:
+
+`set FLASK_APP=app.py && flask run`
+
+![Local Development](local.jpg)
+
 ## Github Actions
 I am using `pytest` and Github Actions (see also the workflow file `fundmapper-webapp/.github/workflows/python-app2.yml`). Tests execute fine and are set to 
 be run on every push to `main` or pull request to `main`.
