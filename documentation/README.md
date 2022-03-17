@@ -8,6 +8,13 @@ To develop locally on Windows work on the code. To test open command prompt `cd`
 
 ![Local Development](local.jpg)
 
+
+To run unit tests locally, `cd` to the folder and activate the anaconda distribution (`conda activate <env_name>`):
+`python -m pytest`
+
+![Local Tests](localtests.jpg)
+
+
 ## Github Actions
 I am using `pytest` and Github Actions (see also the workflow file `fundmapper-webapp/.github/workflows/python-app2.yml`). Tests execute fine and are set to 
 be run on every push to `main` or pull request to `main`.
