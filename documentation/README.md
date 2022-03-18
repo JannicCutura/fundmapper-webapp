@@ -47,6 +47,18 @@ have to specify the ports manually as above. Run:
 
 
 ## Kubernetes
+Kubernetes resources are stored in `kubernetes/`. To run and test locally, first start minikube: 
+
+`minikube start`
+
+Next, launch the app:
+
+`kubectl expose deployments/flask --type="NodePort" --port 8000`
+
+The app can be viewed here: 
+
+`minikube service flask`
+
 
 
 ## Deployment / Serving on AWS
