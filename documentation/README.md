@@ -35,6 +35,11 @@ To run it:
 
 ![Docker](docker.jpg)
 
+To push the docker image, run:
+
+`docker push cuturaj/fundmapper`
+
+
 You can download the image [here](https://hub.docker.com/repository/docker/cuturaj/fundmapper). 
 
 Next, I created a docker compose file. A bit of an overkill since I am using only one service, but stil good to see that it works. Also make it easier to not
@@ -50,6 +55,10 @@ have to specify the ports manually as above. Run:
 Kubernetes resources are stored in `kubernetes/`. To run and test locally, first start minikube: 
 
 `minikube start`
+
+Launch the deployment: 
+
+`kubectl apply -f ./kubernetes/fundmapper-web.yaml`
 
 Next, launch the app:
 
