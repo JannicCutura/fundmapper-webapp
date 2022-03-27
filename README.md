@@ -1,18 +1,15 @@
 [![fundmapper webapp CICD](https://github.com/JannicCutura/fundmapper-webapp/actions/workflows/python-app2.yml/badge.svg)](https://github.com/JannicCutura/fundmapper-webapp/actions/workflows/python-app2.yml)
 # fundmapper-webapp
-This repo tracks the code for fundmapper's webapp
+This repo tracks the code for fundmapper's webapp. 
+The fundmapper project itself can be found on the [website](https://janniccutura.net/project/fundmapper/) and on its 
+[github](https://github.com/JannicCutura/fundmappeR) page.
 
-
-## Local developer guide
-1. Run on windows using `set FLASK_APP=app.py && flask run`
-2. Open Anaconda prompt, cd to folder and run `conda activate env_fundmapperwebapp`
-and then to run all tests `python -m pytest`
 
 ## Documentation
-You can find the documentation of the various DevOps tools here. 
+You can find the documentation of the various DevOps tools [`documentation/`](/documentation). 
 
 
 ## Author
-Jannic Cutura
+Jannic Cutura, 2020
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
