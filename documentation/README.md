@@ -71,3 +71,47 @@ The app can be viewed here:
 
 
 ## Deployment / Serving on AWS
+I am running the flask app using docker on AWS EC2. To do so I started a free tier EC2 instance. 
+To login, I use putty on windows. Username is `ec2-user`. After logging in prepare the environment: 
+```
+# update image
+sudo yum update -y
+
+# install docker
+sudo amazon-linux-extras install docker
+
+# sudo privielge for docker
+sudo usermod -a -G docker ec2-user
+
+# install python 
+sudo yum install python37
+
+# install pip
+curl -O https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py --user
+pip --version
+``` 
+
+To launch the web app:
+
+```
+# start docker
+sudo service start docker start
+
+# pull image and run it
+docker run -i -t --name fundmapper -p5000:5000 cuturaj/fundmapper
+```
+The app is now accessible:
+`http://ec2-3-120-108-57.eu-central-1.compute.amazonaws.com:5000`
+
+In AWS Route53, create an A name record to the public IP. The app can now be reached at 
+
+`http://fundmapper.janniccutura.net:5000`
+
+
+![AWS Docker deployment  on EC2](aws.jpg)
+
+
+
+
+It can now be reached at the instance IP address on port 5000.
