@@ -104,7 +104,7 @@ docker run -i -t --name fundmapper -p5000:5000 cuturaj/fundmapper
 The app is now accessible:
 `http://ec2-3-120-108-57.eu-central-1.compute.amazonaws.com:5000`
 
-In AWS Route53, create an A name record to the public IP. The app can now be reached at 
+In AWS Route53, create an A name record to the public IP. The app can now be reached [here](http://fundmapper.janniccutura.net:5000/) at 
 
 `http://fundmapper.janniccutura.net:5000`
 
